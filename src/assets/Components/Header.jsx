@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import profileImg from "../images/profile.jpg";
-import githubLogo from "../images/github.png";
 
 const Header = () => {
   return (
