@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div
       id="#Header"
-      className="min-h-screen flex items-center justify-center pt-20"
+      className="min-h-screen flex items-center justify-center pt-20 -z-50"
     >
       <div className="flex flex-wrap justify-evenly container mx-auto">
         <div className=" flex flex-col items-center justify-center">
