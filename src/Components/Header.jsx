@@ -2,14 +2,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import profileImg from "../images/profile.jpg";
+import profileImg from "../assets/profile.jpg";
 
 
 const Header = () => {
   return (
     <div
       id="Header"
-      className="min-h-screen flex items-center justify-center pt-10"
+      className="min-h-screen flex justify-center pt-10 items-center"
     >
       <div className="flex flex-wrap gap-16 justify-center container mx-auto">
         <div className=" flex flex-col items-center justify-center">

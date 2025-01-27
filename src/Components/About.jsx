@@ -1,11 +1,11 @@
 import React from "react";
-import profile from "../images/img.jpg";
+import profile from "../assets/img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
-    <div className="container mx-auto flex mt-10 gap-2 py-5 px-16" id="About">
+    <div className="container mx-auto flex mt-10 gap-2 py-5 px-16 min-h-96 justify-center items-center" id="About">
       <div className="flex w-1/2">
         <img
           src={profile}
