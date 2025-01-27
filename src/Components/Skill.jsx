@@ -1,5 +1,4 @@
 import React from "react";
-import {asset} from '../assets/asset.js';
 
 const Skill = () => {
   return (
@@ -10,7 +9,7 @@ const Skill = () => {
       <div>
         <h1 className="text-3xl font-bold text-gray-600">Technical Skill</h1>
         <div>
-          <img src= {asset.html} alt="" />
+          
         </div>
       </div>
       <div>
