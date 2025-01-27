@@ -4,6 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import profileImg from "../images/profile.jpg";
 
+
 const Header = () => {
   return (
     <div
@@ -27,7 +28,7 @@ const Header = () => {
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  className="text-4xl hover:text-gray-700"
+                  className="text-4xl text-gray-700 hover:text-gray-800"
                 />
               </a>
               <a
@@ -37,7 +38,7 @@ const Header = () => {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-4xl hover:text-gray-700"
+                  className="text-4xl text-blue-700 hover:text-blue-600"
                 />
               </a>
           </div>
