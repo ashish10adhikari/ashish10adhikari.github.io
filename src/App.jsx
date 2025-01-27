@@ -2,6 +2,7 @@ import {motion} from 'motion/react'
 import Header from './assets/Components/Header';
 import Navbar from './assets/Components/Navbar';
 import About from './assets/Components/About';
+import Skill from './assets/Components/Skill';
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
+      <Skill/>
       </div>
     
   );
