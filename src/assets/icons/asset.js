@@ -14,7 +14,13 @@ import github from './github.svg';
 import python from './python.png';
 import selenium from './selenium.svg';
 import mysql from './mysql.png';
-
+import communication from './communication.png';
+import creativity from './creativity.png';
+import ethics from './ethics.png';
+import presentation from './presentation.png';
+import problemsolving from './problem-solving.png';
+import teamwork from './teamwork.png';
+import timemgmt from './timemgmt.png';
 
 export const asset = {
   html,
@@ -30,5 +36,13 @@ export const asset = {
   github,
   python,
   selenium,
-  mysql
+  mysql,
+  communication,
+    creativity,
+    ethics,
+    presentation,
+    problemsolving,
+    teamwork,
+    timemgmt
+    
 };
