@@ -27,7 +27,7 @@ const Skill = () => {
               <h3>JAVASCRIPT</h3>
             </div>
             <div className="flex flex-col items-center text-lg">
-              <img src={asset.bootstrap} alt="BOOTSTRAP" className="h-14 w-14"/>
+              <img src={asset.bootstrap} alt="BOOTSTRAP" className="h-14 w-14 filter"/>
               <h3>BOOTSTRAP</h3>
             </div>
             <div className="flex flex-col items-center text-xl">
@@ -47,7 +47,7 @@ const Skill = () => {
               <h3>PHP</h3>
             </div>
             <div className="flex flex-col items-center text-xl">
-              <img src={asset.laravel} alt="LARAVEL" className="h-14 w-14"/>
+              <img src={asset.laravel} alt="LARAVEL" className="h-14 w-20"/>
               <h3>LARAVEL</h3>
             </div>
             <div className="flex flex-col items-center text-xl">

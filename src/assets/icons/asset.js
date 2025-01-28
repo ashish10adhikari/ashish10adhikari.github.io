@@ -1,19 +1,19 @@
 // asset.js
 
-import html from './html5.svg';
-import css from './css3.svg';
-import bootstrap from './bootstrap.svg';
-import tailwind from './tailwindcss.svg';
-import js from './javascript.svg';
-import react from './react.svg';
+import html from './html5.png';
+import css from './css3.png';
+import bootstrap from './bootstrap.png';
+import tailwind from './tailwindcss.png';
+import js from './javascript.png';
+import react from './react.png';
 import jquery from './jquery.svg';
-import php from './php.svg';
-import laravel from './laravel.svg';
-import git from './git.svg';
+import php from './php.png';
+import laravel from './laravel.png';
+import git from './git.png';
 import github from './github.svg';
-import python from './python.svg';
+import python from './python.png';
 import selenium from './selenium.svg';
-import mysql from './mysql.svg';
+import mysql from './mysql.png';
 
 
 export const asset = {
