@@ -5,11 +5,11 @@ import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto py-20" id="Contact">
+    <div className="container pt-20 min-h-screen text-center" id="Contact">
       <h1 className="text-center text-3xl font-bold text-gray-600">
         <span className="bg-gray-600 px-1 mr-2"></span>CONTACT ME
       </h1>
-      <div className="flex gap-5 w-full justify-center items-center pt-10">
+      <div className="flex gap-5 w-full justify-center items-center pt-5">
         <div className="flex flex-col gap-5 w-1/2 pl-52">
           <div className="flex items-center space-x-4">
             <FontAwesomeIcon

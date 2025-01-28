@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-evenly container py-5 px-20 mx-auto shadow-md gap-20 fixed z-50 bg-white">
+    <div className="flex justify-evenly container py-5 px-20 shadow-md gap-20 fixed z-50 bg-white">
       <div className="justify-start">
         <a href="#Header"><h1 className="text-4xl font-bold hover:text-blue-500">Ashish.</h1></a>
       </div>
@@ -10,7 +10,7 @@ const Navbar = () => {
         <a className="hover:text-blue-500 transition-all" href="#Header">HOME</a>
         <a className="hover:text-blue-500 transition-all" href="#About">ABOUT ME</a>
         <a className="hover:text-blue-500 transition-all" href="#Skill">SKILLS</a>
-        <a className="hover:text-blue-500 transition-all" href="#SERVICE">SERVICES</a>
+        <a className="hover:text-blue-500 transition-all" href="#EXPERIENCE">EXPERIENCES</a>
         <a className="hover:text-blue-500 transition-all" href="#Project">PROJECTS</a>
         <a className="hover:text-blue-500 transition-all" href="#Contact">CONTACT</a>
       </ul>
