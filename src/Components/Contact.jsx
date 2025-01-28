@@ -12,33 +12,66 @@ const Contact = () => {
       <div className="flex gap-5 w-full justify-center items-center pt-10">
         <div className="flex flex-col gap-5 w-1/2 pl-52">
           <div className="flex items-center space-x-4">
-            <FontAwesomeIcon icon={faLocationDot} className="text-3xl text-gray-700" />
+            <FontAwesomeIcon
+              icon={faLocationDot}
+              className="text-3xl text-gray-700"
+            />
             <p className="font-bold text-gray-600">Chitwan, Bharatpur-21</p>
           </div>
 
           <div className="flex items-center space-x-4">
-            <FontAwesomeIcon icon={faEnvelope} className="text-3xl text-gray-700" />
-            <p className="font-bold text-gray-600">ashish10adhikari@gmail.com</p>
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className="text-3xl text-gray-700"
+            />
+            <p className="font-bold text-gray-600">
+              ashish10adhikari@gmail.com
+            </p>
           </div>
 
           <div className="flex items-center space-x-4">
-            <FontAwesomeIcon icon={faLinkedin} className="text-3xl text-gray-700" />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="text-3xl text-gray-700"
+            />
             <p className="font-bold text-gray-600">Ashish Adhikari</p>
           </div>
         </div>
 
-        <div className="flex flex-col gap-5 w-1/2">
-          <h2 className="text-xl font-bold text-gray-600">GET IN TOUCH</h2>
-          <form action="" className="flex flex-col gap-5">
-            <input
+        <div className="flex flex-col gap-5 w-1/2 mr-20">
+          <h2 className="text-xl font-bold text-gray-600 text-center">GET IN TOUCH</h2>
+          <form
+            action=""
+            className="flex flex-col gap-5 border-2 p-5 rounded-2xl shadow-lg"
+          >
+            <div className="flex justify-evenly gap-5">
+                <input
               type="text"
               name="fname"
               placeholder="Enter First Name"
-              className="border"
+              className="border rounded-md p-2 w-1/2 text-gray-600"
             />
-            <input type="text" name="lname" placeholder="Enter Last Name" />
-            <input type="email" name="email" placeholder="Enter Email" />
-            <input type="text" name="subject" placeholder="Enter Subject" />
+            <input
+              type="text"
+              name="lname"
+              placeholder="Enter Last Name"
+              className="border rounded-md p-2 w-1/2 text-gray-600"
+            />
+            </div>
+            
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email"
+              className="border rounded-md p-2 text-gray-600"
+            />
+            <textarea
+              type="textarea"
+              name="subject" cols="30" rows="5"
+              placeholder="Enter Subject"
+              className="border rounded-md p-2 text-gray-600"
+            />
+            <button className="bg-blue-700 p-3 text-white rounded-md hover:bg-blue-600">SEND</button>
           </form>
         </div>
       </div>
