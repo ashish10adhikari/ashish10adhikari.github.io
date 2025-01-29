@@ -12,7 +12,7 @@ const Skill = () => {
       </h1>
       <div className="container flex justify-evenly text-center gap-16 mt-5 px-40">
         <div className="w-1/2 shadow-md rounded-lg pt-5 bg-white">
-          <h1 className="text-3xl font-bold text-gray-600 underline">
+          <h1 className="text-2xl font-bold text-gray-600 underline">
             Technical Skill
           </h1>
           <div className="flex flex-wrap gap-10 py-10 px-14">
@@ -79,7 +79,7 @@ const Skill = () => {
           </div>
         </div>
         <div className="w-1/2 shadow-md rounded-lg pt-5 bg-white">
-          <h1 className="text-3xl font-bold text-gray-600 underline">
+          <h1 className="text-2xl font-bold text-gray-600 underline">
             Professional Skill
           </h1>
           <div className="flex flex-wrap gap-10 py-10 px-14">

@@ -71,7 +71,7 @@ const Contact = () => {
               placeholder="Enter Subject"
               className="border rounded-md p-2 text-gray-600"
             />
-            <button className="bg-gray-600 p-3 text-white rounded-md hover:bg-gray-700">SEND</button>
+            <button className="border-2 bg-gray-200 p-3 rounded-md hover:bg-gray-100 text-gray-600 font-bold">SEND</button>
           </form>
         </div>
       </div>
