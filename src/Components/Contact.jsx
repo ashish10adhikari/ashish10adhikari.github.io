@@ -5,7 +5,7 @@ import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div className="container pt-20 min-h-screen text-center" id="Contact">
+    <div className="container pt-24 min-h-screen text-center justify-center items-center" id="Contact">
       <h1 className="text-center text-3xl font-bold text-gray-600">
         <span className="bg-gray-600 px-1 mr-2"></span>CONTACT ME
       </h1>
@@ -42,7 +42,7 @@ const Contact = () => {
           <h2 className="text-xl font-bold text-gray-600 text-center">GET IN TOUCH</h2>
           <form
             action=""
-            className="flex flex-col gap-5 border-2 p-5 rounded-2xl shadow-lg"
+            className="flex flex-col gap-5 border-2 px-5 py-10 rounded-2xl shadow-lg"
           >
             <div className="flex justify-evenly gap-5">
                 <input
