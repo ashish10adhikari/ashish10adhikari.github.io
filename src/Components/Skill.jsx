@@ -4,14 +4,14 @@ import { asset } from "../assets/icons/asset";
 const Skill = () => {
   return (
     <div
-      className="container-fluid flex flex-col justify-evenly items-center min-h-screen"
+      className="container-fluid flex flex-col justify-evenly items-center min-h-screen bg-gray-100"
       id="Skill"
     >
       <h1 className="text-center text-3xl font-bold text-gray-600">
         <span className="bg-gray-600 px-1 mr-2"></span> MY SKILLS
       </h1>
       <div className="container flex justify-evenly text-center gap-16 mt-5 px-40">
-        <div className="w-1/2 shadow-md rounded-lg pt-5">
+        <div className="w-1/2 shadow-md rounded-lg pt-5 bg-white">
           <h1 className="text-3xl font-bold text-gray-600 underline">
             Technical Skill
           </h1>
@@ -78,7 +78,7 @@ const Skill = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 shadow-md rounded-lg pt-5">
+        <div className="w-1/2 shadow-md rounded-lg pt-5 bg-white">
           <h1 className="text-3xl font-bold text-gray-600 underline">
             Professional Skill
           </h1>

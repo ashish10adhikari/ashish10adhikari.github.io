@@ -3,19 +3,19 @@ import React from "react";
 const Experience = () => {
   return (
     <div
-      className="container-fluid flex flex-col justify-evenly items-center min-h-screen pt-20"
+      className="container-fluid flex flex-col justify-evenly items-center min-h-screen pt-20 bg-gray-100"
       id="Experience"
     >
       <h1 className="text-center text-3xl font-bold text-gray-600">
         <span className="bg-gray-600 px-1 mr-2"></span> MY EXPERIENCE
       </h1>
-      <div className="container flex text-center gap-16 mt-5 px-40">
+      <div className="container flex text-center gap-16 mt-5 px-40 ">
         <div className="w-1/2  pt-5">
           <h1 className="text-3xl font-bold text-gray-600 underline">
             EDUCATION
           </h1>
           <div className="flex flex-col py-10 px-14 gap-4">
-            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start bg-white">
               <h2 className="text-2xl font-bold">BICTE</h2>
               <h2 className="text-xl font-bold text-sky-500">
                 Balkumari College
@@ -27,7 +27,7 @@ const Experience = () => {
                 Networking.
               </p>
             </div>
-            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start bg-white">
               <h2 className="text-2xl font-bold">10 +2 (Computer Science)</h2>
               <h2 className="text-xl font-bold text-sky-500">Orchid College</h2>
               <h3 className="text-md font-bold">2016-2018</h3>
@@ -37,7 +37,7 @@ const Experience = () => {
                 got fascinated towards Programming.
               </p>
             </div>
-            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start bg-white">
               <h2 className="text-2xl font-bold">School Leaving Certificate</h2>
               <h2 className="text-xl font-bold text-sky-500">
                 Small Heaven School
@@ -53,7 +53,7 @@ const Experience = () => {
         <div className="w-1/2  pt-5">
           <h1 className="text-3xl font-bold text-gray-600 underline">WORK</h1>
           <div className="flex flex-col py-10 px-14 gap-4">
-            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start bg-white">
               <h2 className="text-2xl font-bold">FullStack Developer Intern</h2>
               <h2 className="text-xl font-bold text-sky-500">Mediisha Nepal</h2>
               <h3 className="text-md font-bold">4 months</h3>
@@ -64,7 +64,7 @@ const Experience = () => {
                 <li>Taking client requirements.</li>
               </ul>
             </div>
-            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start bg-white">
               <h2 className="text-2xl font-bold">Frontend Developer Intern</h2>
               <h2 className="text-xl font-bold text-sky-500">PAG Nepal</h2>
               <h3 className="text-md font-bold">4 months</h3>
