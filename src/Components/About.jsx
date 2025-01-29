@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../assets/img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import cv from "../assets/ashishcv.pdf";
 
 const About = () => {
   return (
@@ -26,9 +27,10 @@ const About = () => {
           solutions that bring ideas to life.
         </p>
         <div className="flex justify-center">
-          <button className="mt-5 text-gray-600 border-2 border-gray-300 p-3 rounded-3xl hover:bg-gray-200 font-bold">
+          <a href={cv}><button className="mt-5 text-gray-600 border-2 border-gray-300 p-3 rounded-3xl hover:bg-gray-200 font-bold">
             Download CV <FontAwesomeIcon icon={faDownload} />
-          </button>
+          </button></a>
+          
         </div>
       </div>
     </div>
