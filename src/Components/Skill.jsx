@@ -11,7 +11,7 @@ const Skill = () => {
         <span className="bg-gray-600 px-1 mr-2"></span> MY SKILLS
       </h1>
       <div className="container flex justify-evenly text-center gap-16 mt-5 px-40">
-        <div className="w-1/2 border-2 shadow-md rounded-lg pt-5">
+        <div className="w-1/2 shadow-md rounded-lg pt-5">
           <h1 className="text-3xl font-bold text-gray-600 underline">
             Technical Skill
           </h1>
@@ -78,7 +78,7 @@ const Skill = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 border-2 shadow-md rounded-lg pt-5">
+        <div className="w-1/2 shadow-md rounded-lg pt-5">
           <h1 className="text-3xl font-bold text-gray-600 underline">
             Professional Skill
           </h1>

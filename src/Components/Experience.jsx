@@ -15,7 +15,7 @@ const Experience = () => {
             EDUCATION
           </h1>
           <div className="flex flex-col py-10 px-14 gap-4">
-            <div className="flex flex-col gap-2 border-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
               <h2 className="text-2xl font-bold">BICTE</h2>
               <h2 className="text-xl font-bold text-sky-500">
                 Balkumari College
@@ -27,7 +27,7 @@ const Experience = () => {
                 Networking.
               </p>
             </div>
-            <div className="flex flex-col gap-2 border-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
               <h2 className="text-2xl font-bold">10 +2 (Computer Science)</h2>
               <h2 className="text-xl font-bold text-sky-500">Orchid College</h2>
               <h3 className="text-md font-bold">2016-2018</h3>
@@ -37,7 +37,7 @@ const Experience = () => {
                 got fascinated towards Programming.
               </p>
             </div>
-            <div className="flex flex-col gap-2 border-2 shadow-md rounded-lg p-10 text-start">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
               <h2 className="text-2xl font-bold">School Leaving Certificate</h2>
               <h2 className="text-xl font-bold text-sky-500">
                 Small Heaven School
@@ -50,9 +50,32 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 border-2 shadow-md rounded-lg pt-5">
+        <div className="w-1/2  pt-5">
           <h1 className="text-3xl font-bold text-gray-600 underline">WORK</h1>
-          <div className="flex flex-col py-10 px-14"></div>
+          <div className="flex flex-col py-10 px-14 gap-4">
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+              <h2 className="text-2xl font-bold">FullStack Developer Intern</h2>
+              <h2 className="text-xl font-bold text-sky-500">Mediisha Nepal</h2>
+              <h3 className="text-md font-bold">4 months</h3>
+              <ul className="font-bold text-gray-500 pt-3 list-disc">
+                <h3>Tasks:</h3>
+                <li>Worked on PHP & Laravel.</li>
+                <li>Deploying software in local server.</li>
+                <li>Taking client requirements.</li>
+              </ul>
+            </div>
+            <div className="flex flex-col gap-2 shadow-md rounded-lg p-10 text-start">
+              <h2 className="text-2xl font-bold">Frontend Developer Intern</h2>
+              <h2 className="text-xl font-bold text-sky-500">PAG Nepal</h2>
+              <h3 className="text-md font-bold">4 months</h3>
+              <ul className="font-bold text-gray-500 pt-3 list-disc">
+                <h3>Tasks:</h3>
+                <li>Worked on CSS Framework.s</li>
+                <li>Worked on JS and Reactjs.</li>
+                <li>Minor projects on React JS.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
