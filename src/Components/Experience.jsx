@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <div
-      className="container-fluid flex flex-col justify-evenly items-center min-h-screen pt-20 bg-gray-100"
+      className="container-fluid flex flex-col justify-evenly items-center min-h-screen pt-20 "
       id="Experience"
     >
       <h1 className="text-center text-3xl font-bold text-gray-600">

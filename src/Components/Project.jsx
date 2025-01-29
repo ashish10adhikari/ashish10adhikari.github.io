@@ -4,7 +4,7 @@ import React from "react";
 const Project = () => {
   return (
     <div
-      className="container-fluid flex flex-col justify-evenly items-center pt-10 bg-gray-100"
+      className="container-fluid flex flex-col justify-evenly items-center pt-10 "
       id="Project"
     >
       <h1 className="text-center text-3xl font-bold text-gray-600">

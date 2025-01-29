@@ -4,7 +4,7 @@ import { asset } from "../assets/icons/asset";
 const Skill = () => {
   return (
     <div
-      className="container-fluid flex flex-col justify-evenly items-center min-h-screen bg-gray-100"
+      className="container-fluid flex flex-col justify-evenly items-center min-h-screen "
       id="Skill"
     >
       <h1 className="text-center text-3xl font-bold text-gray-600">
