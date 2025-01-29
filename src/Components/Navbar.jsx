@@ -11,7 +11,7 @@ const Navbar = () => {
         <a className="hover:text-blue-500 transition-all" href="#About">ABOUT ME</a>
         <a className="hover:text-blue-500 transition-all" href="#Skill">SKILLS</a>
         <a className="hover:text-blue-500 transition-all" href="#Experience">EXPERIENCE</a>
-        <a className="hover:text-blue-500 transition-all" href="#Project">PROJECTS</a>
+        {/* <a className="hover:text-blue-500 transition-all" href="#Project">PROJECTS</a> */}
         <a className="hover:text-blue-500 transition-all" href="#Contact">CONTACT</a>
       </ul>
     </div>

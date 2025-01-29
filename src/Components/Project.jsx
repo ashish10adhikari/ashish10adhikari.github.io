@@ -1,4 +1,4 @@
-import { div } from "motion/react-client";
+
 import React from "react";
 
 const Project = () => {
@@ -12,7 +12,7 @@ const Project = () => {
       </h1>
       <div>
         <div>
-            
+
         </div>
       </div>
     </div>
