@@ -15,7 +15,7 @@ const Skill = () => {
           <h1 className="text-3xl font-bold text-gray-600 underline">
             Technical Skill
           </h1>
-          <div className="flex flex-wrap gap-10 py-10 px-28 justify-start">
+          <div className="flex flex-wrap gap-10 py-10 px-14">
             <div className="flex flex-col text-center text-md">
               <img src={asset.html} alt="HTML" className="h-14 w-14" />
               <h3>HTML</h3>
@@ -24,7 +24,7 @@ const Skill = () => {
               <img src={asset.css} alt="CSS" className="h-14 w-14" />
               <h3>CSS</h3>
             </div>
-            <div className="flex flex-col items-center ttext-md">
+            <div className="flex flex-col items-center text-md">
               <img src={asset.js} alt="JAVASCRIPT" className="h-14 w-14" />
               <h3>JAVASCRIPT</h3>
             </div>
@@ -82,7 +82,7 @@ const Skill = () => {
           <h1 className="text-3xl font-bold text-gray-600 underline">
             Professional Skill
           </h1>
-          <div className="flex flex-wrap gap-10 py-10 px-20">
+          <div className="flex flex-wrap gap-10 py-10 px-14">
             <div className="flex flex-col text-center justify-center items-center text-md">
               <img
                 src={asset.communication}
