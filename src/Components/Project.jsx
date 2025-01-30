@@ -21,7 +21,7 @@ const Project = () => {
           { image: portfolio, title: "Portfolio Website" }
         ].map((project, index) => (
           <div key={index} className="flex flex-col p-5 rounded-lg shadow-lg hover:shadow-2xl">
-            <img src={project.image} alt={project.title} className="rounded-3xl w-full object-cover" />
+            <img src={project.image} alt={project.title} className="rounded-3xl w-full object-cover h-52" />
             <hr className="border-1 border-black my-4" />
             <div className="text-center">
               <h2 className="text-2xl font-bold text-gray-600">{project.title}</h2>
