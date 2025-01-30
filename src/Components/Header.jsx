@@ -7,13 +7,18 @@ const Header = () => {
   return (
     <div
       id="Header"
-      className="min-h-screen flex justify-center pt-10 items-center"
+      className="min-h-screen flex justify-center items-center pt-16"
     >
-      <div className="flex flex-wrap gap-16 justify-center container mx-auto">
-        <div className=" flex flex-col items-center justify-center">
-          <h3 className="text-2xl bg-blue-500 text-white py-2 px-4 rounded-br-full rounded-tr-full rounded-tl-full">Hi, I am</h3>
-          <h2 className="text-4xl font-bold">Ashish Adhikari</h2>
-          <h1 className="text-5xl font-bold">Software Developer</h1>
+      <div className="flex flex-col-reverse lg:flex-row gap-16 justify-center items-center container mx-auto">
+        {/* Left Section */}
+        <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+          <h3 className="text-2xl bg-blue-500 text-white py-2 px-4 rounded-br-full rounded-tl-full rounded-tr-full">
+            Hi, I am
+          </h3>
+          <h2 className="text-4xl font-bold mt-2">Ashish Adhikari</h2>
+          <h1 className="text-5xl font-bold text-gray-700">Software Developer</h1>
+
+          {/* Buttons */}
           <div className="flex gap-5 pt-5">
             <button className="font-bold hover:bg-gray-200 py-2 px-6 rounded-3xl border-2 border-gray-400">
               <a href="#Project">PROJECTS</a>
@@ -22,7 +27,9 @@ const Header = () => {
               <a href="#Contact">HIRE ME</a>
             </button>
           </div>
-          <div className="gap-5 flex justify-center items-center pt-5">
+
+          {/* Social Icons */}
+          <div className="gap-5 flex justify-center lg:justify-start pt-5">
             <a
               href="https://github.com/ashish10adhikari"
               target="_blank"
@@ -45,13 +52,15 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-full bg-gray-100 p-5">
-          <div className="rounded-full bg-gray-200 p-5">
-            <div>
+
+        {/* Profile Image */}
+        <div className="flex justify-center items-center">
+          <div className="rounded-full bg-gray-100 p-5">
+            <div className="rounded-full bg-gray-200 p-5">
               <img
                 src={profileImg}
-                alt=""
-                className="h-auto rounded-full w-96 max-w-lg"
+                alt="profile"
+                className="h-72 w-72 md:h-96 md:w-96 rounded-full object-cover"
               />
             </div>
           </div>
