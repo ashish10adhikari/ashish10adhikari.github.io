@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ashish10adhikari.github.io/",
+  "homepage": "https://ashish10adhikari.github.io/ashishadhikari",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
