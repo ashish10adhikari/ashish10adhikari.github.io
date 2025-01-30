@@ -5,7 +5,7 @@ import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <div className="container pt-24 min-h-screen text-center justify-center items-center " id="Contact">
+    <div className=" pt-24 min-h-screen text-center justify-center items-center " id="Contact">
       <h1 className="text-center text-3xl font-bold text-gray-600">
         <span className="bg-gray-600 px-1 mr-2"></span>CONTACT ME
       </h1>

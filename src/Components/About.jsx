@@ -6,7 +6,7 @@ import cv from "../assets/ashishcv.pdf";
 
 const About = () => {
   return (
-    <div className="container mx-auto flex gap-2 py-5 px-16 min-h-screen justify-center items-center" id="About">
+    <div className=" mx-auto flex gap-2 py-5 px-16 min-h-screen justify-center items-center" id="About">
       <div className="flex w-1/2">
         <img
           src={profile}
