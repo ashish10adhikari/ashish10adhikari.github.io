@@ -4,6 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -34,7 +35,11 @@ const Contact = () => {
   };
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: -200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       className="pt-24 min-h-screen text-center justify-center items-center"
       id="Contact"
     >
@@ -113,7 +118,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

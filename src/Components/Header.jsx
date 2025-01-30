@@ -2,10 +2,15 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import profileImg from "../assets/profile.jpg";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div
+    <motion.div
+    initial={{ opacity: 0, y: 100 }}
+        transition={{ duration: 1.5 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
       id="Header"
       className="min-h-screen flex justify-center items-center pt-16"
     >
@@ -66,7 +71,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
