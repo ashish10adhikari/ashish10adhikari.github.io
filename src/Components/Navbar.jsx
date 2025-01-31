@@ -46,7 +46,7 @@ const Navbar = () => {
       </ul>
       <FontAwesomeIcon
         icon={faBars}
-        className="text-2xl md:hidden"
+        className="text-3xl md:hidden text-center pt-1 pl-10"
         onClick={() => setMobileMenu(true)}
       />
       <div
@@ -54,7 +54,7 @@ const Navbar = () => {
           mobileMenu ? "fixed w-full h-full" : "hidden"
         } right-0 top-0 bottom-0 bg-white transition-all z-50`}
       >
-        <div className="flex justify-end p-6 cursor-pointer">
+        <div className="flex justify-end p-6 cursor-pointer text-3xl">
           <FontAwesomeIcon
             icon={faXmark}
             onClick={() => setMobileMenu(false)}

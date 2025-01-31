@@ -5,6 +5,7 @@ import todo from "../assets/todo.png";
 import hospital from "../assets/hospitalweb.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { link } from "motion/react-client";
 
 const Project = () => {
   return (
@@ -18,10 +19,10 @@ const Project = () => {
 
       <div className="p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 w-full">
         {[
-          { image: furni, title: "Laravel Ecommerce" },
-          { image: hospital, title: "Hospital Frontend" },
-          { image: todo, title: "Todo App" },
-          { image: portfolio, title: "Portfolio Website" },
+          { image: furni, title: "Laravel Ecommerce", link:"https://github.com/ashish10adhikari/Laravel-Ecommerce_Website"},
+          { image: hospital, title: "Hospital Frontend", link:"https://github.com/ashish10adhikari/Hospital-Tailwind-Website" },
+          { image: todo, title: "Todo App", link:"https://github.com/ashish10adhikari/TODO-APP" },
+          { image: portfolio, title: "Portfolio Website", link:"https://github.com/ashish10adhikari/ashish10adhikari.github.io"},
         ].map((project, index) => (
           <div
             key={index}
@@ -39,7 +40,7 @@ const Project = () => {
               </h2>
               <div className="mt-3">
                 <a
-                  href="https://github.com/ashish10adhikari"
+                  href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ashish10adhikari.github.io/ashishadhikari",
+  "homepage": "https://ashish10adhikari.github.io",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
