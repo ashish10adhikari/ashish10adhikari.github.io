@@ -32,6 +32,7 @@ const Project = () => {
               src={project.image}
               alt={project.title}
               className="rounded-3xl w-full object-cover h-52"
+              loading="lazy"
             />
             <hr className="border-1 border-black my-4" />
             <div className="text-center">

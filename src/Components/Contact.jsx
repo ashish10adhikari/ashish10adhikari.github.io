@@ -1,10 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -52,7 +51,7 @@ const Contact = () => {
               icon={faLocationDot}
               className="text-3xl text-gray-700"
             />
-            <p className="font-bold text-gray-600">Chitwan, Bharatpur-21</p>
+            <p className="font-bold text-gray-600">Meadow Heights, VIC,3048</p>
           </div>
           <div className="flex items-center space-x-4">
             <FontAwesomeIcon
@@ -69,6 +68,13 @@ const Contact = () => {
               className="text-3xl text-gray-700"
             />
             <p className="font-bold text-gray-600">Ashish Adhikari</p>
+          </div>
+          <div className="flex items-center space-x-4">
+            <FontAwesomeIcon
+              icon={faPhone}
+              className="text-3xl text-gray-700"
+            />
+            <p className="font-bold text-gray-600">0414264578</p>
           </div>
         </div>
 

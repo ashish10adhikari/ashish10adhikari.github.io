@@ -19,6 +19,13 @@ const Experience = () => {
           <div className="flex flex-col py-10 gap-4">
             {[
               {
+                title: "Master of Data Science",
+                institution: "La Trobe University",
+                duration: "2025-present",
+                description:
+                  "To pursue my further higher studies and to grow more, I choosed La Trobe University.",
+              },
+              {
                 title: "BICTE",
                 institution: "Balkumari College",
                 duration: "2018-2024",
